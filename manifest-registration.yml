@@ -1,11 +1,11 @@
 applications:
-- name: tracker-registration
-  path: ./applications/registration-server/build/libs/registration-server.jar
-  routes:
-  - route: registration-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
-  memory: 1G
-  instances: 1
-  env:
+  - name: tracker-registration
+    path: ./applications/registration-server/build/libs/registration-server.jar
+    routes:
+    - route: registration-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
+    memory: 1G
+    instances: 1
+    env:
 
-  services:
-  - tracker-registration-database
+    services:
+    - tracker-registration-database

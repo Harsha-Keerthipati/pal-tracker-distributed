@@ -1,12 +1,12 @@
 applications:
-- name: tracker-timesheets
-  path: ./applications/timesheets-server/build/libs/timesheets-server.jar
-  routes:
-  - route: timesheets-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
-  memory: 1G
-  instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://timesheets-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
+  - name: tracker-timesheets
+    path: ./applications/timesheets-server/build/libs/timesheets-server.jar
+    routes:
+    - route: timesheets-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
+    memory: 1G
+    instances: 1
+    env:
+      REGISTRATION_SERVER_ENDPOINT: http://registration-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
 
-  services:
-  - tracker-timesheets-database
+    services:
+    - tracker-timesheets-database
