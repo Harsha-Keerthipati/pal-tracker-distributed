@@ -37,3 +37,4 @@ public class AccountController {
             .build();
     }
 }
+   // gradlew cloudNativeDeveloperDistributedSystemDeployment -PregistrationServerUrl=https://registration-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com \ -PbacklogServerUrl=https://backlog-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com \ -PallocationsServerUrl=https://allocations-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com \ -PtimesheetsServerUrl=https://timesheets-pal-harsha-shubhra.apps.pcf.paltraining.perficient.com
